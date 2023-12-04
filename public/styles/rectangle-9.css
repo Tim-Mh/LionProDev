@@ -1,0 +1,21 @@
+
+html {
+    font-size:65.9%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 16.8rem;
+}.rectangle-9-ems {
+  width: 100%;
+  height: 16.8rem;
+  background-color: #f95e7e;
+}
