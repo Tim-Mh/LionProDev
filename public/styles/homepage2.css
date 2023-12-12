@@ -48,6 +48,8 @@ body {
   background-color: #8c7bff;
   border-radius: 2.2rem;
 }
+
+
 .homepage2-mQZ .auto-group-8edt-gXX .rectangle-19-oty {
   width: 144rem;
   height: 64.5rem;
@@ -105,10 +107,10 @@ body {
   left: 107.7rem;
   top: 13.1rem;
   text-align: right;
-  font-size: 6.4rem;
+  font-size: 5.2rem;
   font-weight: 500;
   line-height: 1.0948047638;
-  letter-spacing: -0.128rem;
+  /*letter-spacing: -0.128rem;*/
   color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
 }
@@ -210,8 +212,8 @@ body {
   font-family: Roboto, 'Source Sans Pro';
 }
 .homepage2-mQZ .auto-group-8edt-gXX .arrow-1-zZT {
-  width: 2.9rem;
-  height: 0;
+  /*width: 2.9rem;*/
+  /*height: 0;*/
   position: absolute;
   left: 125.6rem;
   top: 41.6rem;
@@ -219,8 +221,8 @@ body {
   vertical-align: top;
 }
 .homepage2-mQZ .auto-group-8edt-gXX .arrow-3-LNR {
-  width: 2.9rem;
-  height: 0;
+  /*width: 2.9rem;*/
+  /*height: 0;*/
   position: absolute;
   left: 119.8rem;
   top: 41.6rem;
@@ -257,7 +259,7 @@ body {
   white-space: nowrap;
 }
 .homepage2-mQZ .auto-group-8edt-gXX .group-26-Gms .auto-group-otgd-bJM .line-1-CZ3 {
-  margin-left: 0.801rem;
+  /*margin-left: 0.801rem;*/
   width: 0.1rem;
   height: 1.8rem;
   background-color: #000000;
@@ -305,18 +307,34 @@ body {
   align-items: flex-start;
 }
 .homepage2-mQZ .auto-group-8edt-gXX .group-27-TQR .auto-group-l1em-BLR {
-  margin: 0.8rem 0.887rem 0rem 0rem;
-  box-sizing: border-box;
-  padding-bottom: 0.1rem;
-  width: 6.0298rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  border-bottom: dashed 0.1rem #000000;
-  flex-shrink: 0;
+
+
+
+    margin: 1.5rem 0.9rem 5.5rem 0rem;
+    box-sizing: border-box;
+    padding-bottom: 0.1rem;
+    width: 4.4499rem;
+    height: calc(100% - 6.2rem);
+    border-bottom: dashed 0.1rem #000000;
+    border-left: dashed 0.1rem #000000;
+    flex-shrink: 0;
 }
+.auto-group-l1em-BLR {
+
+
+    color:black;
+    margin: 1.5rem 0.9rem 5.5rem 0rem;
+    box-sizing: border-box;
+    padding-bottom: 0.1rem;
+    width: 4.4499rem;
+    /*height: calc(100% - 6.2rem);*/
+    border-bottom: dashed 0.1rem #000000;
+    border-left: dashed 0.1rem #000000;
+    flex-shrink: 0;
+}
+
 .homepage2-mQZ .auto-group-8edt-gXX .group-27-TQR .auto-group-l1em-BLR .auto-group-57ob-tVj {
-  margin: 0rem 1.63rem 1.1rem 0rem;
+  /*margin: 0rem 1.63rem 1.1rem 0rem;*/
   width: 4.4rem;
   height: 4.4rem;
   font-size: 2.4rem;
@@ -333,12 +351,53 @@ body {
   border-radius: 2.2rem;
   flex-shrink: 0;
 }
+.auto-group-l1em-BLR .auto-group-57ob-tVj {
+    margin: 0rem 1.63rem 1.1rem 0rem;
+    width: 4.4rem;
+    height: 4.4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.0948047638;
+    letter-spacing: -0.048rem;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c7bff;
+    border-radius: 2.2rem;
+    flex-shrink: 0;
+}
+.auto-group-57ob-tVj {
+    margin: 0rem 1.63rem 1.1rem 0rem;
+    width: 4.4rem;
+    height: 4.4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.0948047638;
+    letter-spacing: -0.048rem;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c7bff;
+    border-radius: 2.2rem;
+    flex-shrink: 0;
+}
 .homepage2-mQZ .auto-group-8edt-gXX .group-27-TQR .auto-group-l1em-BLR .line-1-7tH {
-  margin: 0rem 3.536rem 0rem 2.394rem;
-  width: calc(100% - 5.9298rem);
-  height: 1.8rem;
-  background-color: #000000;
-  flex-shrink: 0;
+
+    width: 0.1rem;
+    height: 1.8rem;
+    background-color: #000000;
+}
+.auto-group-l1em-BLR .line-1-7tH {
+
+    width: 0.1rem;
+    height: 1.8rem;
+    background-color: #000000;
 }
 .homepage2-mQZ .auto-group-8edt-gXX .group-27-TQR .auto-group-z3rw-DRX {
   box-sizing: border-box;
@@ -615,9 +674,9 @@ body {
   font-family: Roboto, 'Source Sans Pro';
 }
 .homepage2-mQZ .auto-group-x9oj-CJh .arrow-4-SGu {
-  margin: 1.9rem 1.8rem 0rem 0rem;
-  width: 2.9rem;
-  height: 0;
+  margin: 1rem 1rem 0rem 0rem;
+  /*width: 2.9rem;*/
+  /*height: 0;*/
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
@@ -727,12 +786,12 @@ body {
   flex-shrink: 0;
 }
 .homepage2-mQZ .auto-group-x9oj-CJh .arrow-2-6pd {
-  margin-top: 1.9rem;
-  width: 2.9rem;
-  height: 0;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
+  /*margin-top: 1.9rem;*/
+  /*width: 2.9rem;*/
+  /*height: 0;*/
+  /*object-fit: contain;*/
+  /*vertical-align: top;*/
+  /*flex-shrink: 0;*/
 }
 .homepage2-mQZ .auto-group-fkah-qGR {
   box-sizing: border-box;
@@ -1386,5 +1445,10 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Default styles for all screens */
 
 

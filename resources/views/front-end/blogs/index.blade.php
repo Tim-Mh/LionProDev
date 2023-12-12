@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%2C900"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C500%2C700%2C900"/>
     <link rel="stylesheet" href="./styles/blogs.css"/>
+    <style>
+
+
+    </style>
 </head>
 <body>
 <div class="blogs-H7K">
@@ -17,7 +21,7 @@
             <div class="auto-group-hdbj-bnD">
                 <div class="frame-10-8n9">
                     <a href="{{ route('home') }}" class="home-G7f">HOME</a>
-                    <a href="{{ route('projects') }}" class="projects-m4R">PROJECTS</a>
+                    <a href="{{ route('pro') }}" class="projects-m4R">PROJECTS</a>
                     <a href="{{ route('blogs') }}" class="blogs-fvV">BLOGS</a>
                     <a href="{{ route('about') }}" class="about-bZF">ABOUT</a>
                 </div>
@@ -26,7 +30,7 @@
                     <img class="vector-dVw" src="./assets/vector-Rvd.png"/>
                 </div>
             </div>
-            <div class="frame-mMF">start a project</div>
+            <a href="{{route('contact')}}" class="frame-mMF">start a project</a>
         </div>
         <p class="our-blogs-FXK">Our Blogs</p>
         <p class="check-out-our-resources-offering-tips-and-case-studies-for-android-development-9sb">Check out our resources offering tips and case studies for Android development.</p>
@@ -44,58 +48,81 @@
                 <p class="case-studies-Vc1">Case Studies</p>
             </div>
         </div>
-        <div class="auto-group-r1xy-puB">
-            <div class="group-33-k29">
-                <p class="case-study-edK">Case Study</p>
-                <p class="trial-development-NJR">Trial Development</p>
-                <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-JC5">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
-                <p class="read-now-zah">read now</p>
-            </div>
-            <div class="group-34-Psj">
-                <p class="article-Ff3">article</p>
-                <p class="philip-cutting-krh">Philip Cutting</p>
-                <p class="design-what-to-see-V3b">Design, What to See?</p>
-                <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-11w">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
-                <p class="read-now-tbX">read now</p>
-                <div class="group-34-Psj-bg">
+        <div class="auto-group-lhz7-Xpq">
+            <div class="card3">
+                <div class="overlay"></div>
+                <div class="text">
+                    <p class="case-study-NKf">Case Study</p>
+                    <p class="trial-development-VfB">Trial Development</p>
+                    <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-2QD">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
+                    <p class="read-now-8CM">read now</p>
                 </div>
             </div>
-            <div class="group-35-uWd">
-                <p class="article-2LM">Article</p>
-                <p class="philip-cutting-9Qy">Philip Cutting</p>
-                <p class="figma-images-to-play-with-Uy3">Figma Images to Play With.</p>
-                <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-zgV">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
-                <p class="read-now-hqo">read now</p>
-                <div class="group-35-uWd-bg">
+            <div class="card2">
+                <div class="overlay"></div>
+                <div class="text">
+                    <p class="article-Wih">article</p>
+                    <p class="philip-cutting-pzH">Philip Cutting</p>
+                    <p class="design-what-to-see-YfP">Design, What to See?</p>
+                    <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-gFo">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
+                    <p class="read-now-BTT">read now</p>
+                    <div class="group-37-o3b-bg">
+                    </div>
                 </div>
             </div>
+
+            <div class="card1">
+                <div class="overlay"></div>
+                <div class="text">
+                    <p class="article-8n1">Article</p>
+                    <p class="philip-cutting-TpH">Philip Cutting</p>
+                    <p class="figma-images-to-play-with-bfb">Figma Images to Play With.</p>
+                    <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-WnZ">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
+                    <p class="read-now-Dws">read now</p>
+                    <div class="group-38-Qb7-bg">
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="auto-group-lhz7-Xpq">
-            <div class="group-36-EjF">
-                <p class="case-study-NKf">Case Study</p>
-                <p class="trial-development-VfB">Trial Development</p>
-                <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-2QD">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
-                <p class="read-now-8CM">read now</p>
-            </div>
-            <div class="group-37-o3b">
-                <p class="article-Wih">article</p>
-                <p class="philip-cutting-pzH">Philip Cutting</p>
-                <p class="design-what-to-see-YfP">Design, What to See?</p>
-                <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-gFo">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
-                <p class="read-now-BTT">read now</p>
-                <div class="group-37-o3b-bg">
+            <div class="card3">
+                <div class="overlay"></div>
+                <div class="text">
+                    <p class="case-study-NKf">Case Study</p>
+                    <p class="trial-development-VfB">Trial Development</p>
+                    <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-2QD">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
+                    <p class="read-now-8CM">read now</p>
                 </div>
             </div>
-            <div class="group-38-Qb7">
-                <p class="article-8n1">Article</p>
-                <p class="philip-cutting-TpH">Philip Cutting</p>
-                <p class="figma-images-to-play-with-bfb">Figma Images to Play With.</p>
-                <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-WnZ">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
-                <p class="read-now-Dws">read now</p>
-                <div class="group-38-Qb7-bg">
+            <div class="card2">
+                <div class="overlay"></div>
+                <div class="text">
+                    <p class="article-Wih">article</p>
+                    <p class="philip-cutting-pzH">Philip Cutting</p>
+                    <p class="design-what-to-see-YfP">Design, What to See?</p>
+                    <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-gFo">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
+                    <p class="read-now-BTT">read now</p>
+                    <div class="group-37-o3b-bg">
+                    </div>
                 </div>
             </div>
+
+            <div class="card1">
+                <div class="overlay"></div>
+                <div class="text">
+                    <p class="article-8n1">Article</p>
+                    <p class="philip-cutting-TpH">Philip Cutting</p>
+                    <p class="figma-images-to-play-with-bfb">Figma Images to Play With.</p>
+                    <p class="lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-WnZ">Lorem ipsum dolor sit amet consectetur. Ultrices morbi diam turpis.</p>
+                    <p class="read-now-Dws">read now</p>
+                    <div class="group-38-Qb7-bg">
+                    </div>
+                </div>
+            </div>
+
         </div>
+
         <div class="frame-39-F7s">
             <p class="item-1-Mwb">1</p>
             <p class="item-2-tAq">2</p>

@@ -179,10 +179,13 @@ body {
   width: 100%;
   height: 40.955rem;
   position: relative;
-  background-color: #bfb5ff;
+  background-color: #F5F5F5;
   border-radius: 5rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
+}
+.projects-27F .auto-group-xegd-xWh .frame-47-1BT .group-6-8Wy:hover {
+    background-color: #BFB6FF;
 }
 .projects-27F .auto-group-xegd-xWh .frame-47-1BT .group-6-8Wy .wahlbeck-sc-fi-audiobooks-g2h {
   width: 24.2rem;
@@ -228,7 +231,7 @@ body {
   left: 5.5rem;
   top: 5.5rem;
   background-size: 100% 106.958%;
-  background-position: 0 1.6306rem;
+  /*background-position: 0 1.6306rem;*/
   background-image: url('../assets/rectangle-20.png');
   border-radius: 5rem;
 }
@@ -298,7 +301,7 @@ body {
   left: 5.5rem;
   top: 5.5rem;
   background-size: 100% 106.958%;
-  background-position: 0 1.6306rem;
+
   background-image: url('../assets/rectangle-20-uU9.png');
   border-radius: 5rem;
 }
@@ -368,10 +371,11 @@ body {
   left: 5.5rem;
   top: 5.5rem;
   background-size: 100% 106.958%;
-  background-position: 0 1.6306rem;
+  /*background-position: 0 1.6306rem;*/
   background-image: url('../assets/rectangle-20-ifw.png');
   border-radius: 5rem;
 }
+
 .projects-27F .auto-group-xegd-xWh .frame-47-1BT .group-6-iL5 .lorem-ipsum-dolor-sit-amet-consectetur-purus-at-interdum-sed-ac-quis-pretium-scelerisque-ultricies-risus-donec-viverra-aenean-emT {
   width: 52.9rem;
   height: 3.6rem;
@@ -438,7 +442,7 @@ body {
   left: 5.5rem;
   top: 5.5rem;
   background-size: 100% 106.958%;
-  background-position: 0 1.6306rem;
+  /*background-position: 0 1.6306rem;*/
   background-image: url('../assets/rectangle-20-BSM.png');
   border-radius: 5rem;
 }

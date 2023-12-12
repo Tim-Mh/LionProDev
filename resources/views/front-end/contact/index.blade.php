@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C500"/>
     <link rel="stylesheet" href="./styles/contact.css"/>
+    <style>
+        .line-3-q89-input,
+        .line-4-mXb-input {
+            border: none;
+            border-bottom: 2px solid #ffffff;
+            background: transparent;
+            width: 26.59rem;
+            box-sizing: border-box;
+            padding: 5px;
+            color: white;
+        }
+        .line-3-q89-input {
+
+            margin-top: -26px;
+        }
+        .line-4-mXb-input {
+            margin-left: 120px;
+            margin-top: -27px;
+        }
+    </style>
 </head>
 <body>
 <div class="contact-1JD">
@@ -17,7 +37,7 @@
             <div class="auto-group-zbvf-RWM">
                 <div class="frame-10-Yay">
                     <a href="{{ route('home') }}" class="home-FkH">HOME</a>
-                    <a href="{{ route('projects') }}" class="projects-AcM">PROJECTS</a>
+                    <a href="{{ route('pro') }}" class="projects-AcM">PROJECTS</a>
                     <a href="{{ route('blogs') }}" class="blogs-h6V">BLOGS</a>
                     <a href="{{ route('about') }}" class="about-cz9">ABOUT</a>
                 </div>
@@ -26,7 +46,7 @@
                     <img class="vector-GYu" src="./assets/vector-rGu.png"/>
                 </div>
             </div>
-            <div class="frame-PdX">start a project</div>
+            <a href="{{route('contact')}}" class="frame-PdX">start a project</a>
         </div>
         <div class="auto-group-erzh-fqw">
             <p class="set-up-a-quick-call-to-kick-start-your-project-bDo">
@@ -35,11 +55,10 @@
 
             </p>
             <div class="auto-group-qaqu-JP7">
-                <div class="line-3-q89">
-                </div>
-                <div class="line-4-mXb">
-                </div>
+                <input type="text" name="name" class="line-3-q89-input" >
+                <input type="text" name="emaill" class="line-4-mXb-input" >
             </div>
+
         </div>
         <div class="auto-group-jmtt-7bT">
             <p class="lets-talk-2yK">Let’s Talk</p>

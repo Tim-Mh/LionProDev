@@ -3,14 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Project;
 
 class WebsiteController extends Controller
 {
     public function home(){
        return view('front-end.home');
     }
-    public function projects(){
-        return view('front-end.projects.index');
+    public function pro() {
+        $projects = Project::all();
+
+        return view('front-end.pro.index', compact('projects'));
     }
     public function blogs(){
         return view('front-end.blogs.index');
@@ -27,10 +30,16 @@ class WebsiteController extends Controller
     public function contact(){
         return view('front-end.contact.index');
     }
-    public function wahl(){
-        return view('front-end.projects.wahlbeck');
+    public function wahl($id){
+        $project = Project::find($id);
+
+        if (!$project) {
+            abort(404); // or handle accordingly if the project is not found
+        }
+
+        return view('front-end.pro.wahlbeck', compact('project'));
     }
     public function floater(){
-        return view('front-end.projects.floater');
+        return view('front-end.pro.floater');
     }
 }

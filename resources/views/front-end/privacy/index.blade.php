@@ -17,16 +17,16 @@
             <div class="auto-group-wrsb-Dws">
                 <div class="frame-10-9Kj">
                     <a href="{{ route('home') }}" class="home-TrD">HOME</a>
-                    <a href="{{ route('projects') }}" class="projects-mc1">PROJECTS</a>
-                    <a href="{{ route('blogs') }}" class="blogs-J69">BLOGS</a>
-                    <a href="{{ route('about') }}" class="about-Diu">ABOUT</a>
+                    <a href="{{ route('pro') }}" class="projects-mc1">PROJECTS</a>
+                    <a  class="blogs-J69">BLOGS</a>
+                    <a  class="about-Diu">ABOUT</a>
                 </div>
                 <div class="group-5-Mq7">
                     <img class="group-4-Wxu" src="./assets/group-4-owB.png"/>
                     <img class="vector-eZK" src="./assets/vector-nuB.png"/>
                 </div>
             </div>
-            <div class="frame-BJM">start a project</div>
+            <a href="{{route('contact')}}" class="frame-BJM">start a project</a>
         </div>
         <p class="privacy-policy-for-lion-pro-dev-dba-lion-mgt-llc-F3K">Privacy Policy for Lion Pro Dev DBA Lion MGT LLC</p>
         <div class="auto-group-eper-WV3">
@@ -232,8 +232,8 @@
                 <img class="vector-PgH" src="./assets/vector-MSd.png"/>
             </div>
             <div class="frame-22-L5j">
-                <a href="{{ route('about') }}" class="about-us-ES1">About Us</a>
-                <a href="{{ route('blogs') }}" class="blog-mRw">Blog</a>
+                <a  class="about-us-ES1">About Us</a>
+                <a  class="blog-mRw">Blog</a>
                 <a href="{{ route('terms') }}" class="terms-conditions-6z1">Terms &amp; Conditions</a>
                 <a href="{{ route('privacy') }}" class="privacy-policy-eVj">Privacy Policy</a>
             </div>

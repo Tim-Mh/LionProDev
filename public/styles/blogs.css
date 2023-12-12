@@ -255,21 +255,26 @@ body {
   flex-shrink: 0;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-r1xy-puB .group-33-k29 {
-  margin-right: 2.9rem;
-  box-sizing: border-box;
-  padding: 4.4rem 5.8rem 4.4rem 4.2rem;
-  width: 36rem;
-  height: 100%;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    background-color: blue;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../assets/rectangle-15-bg-WbX.png');
-  border-radius: 5rem;
-  flex-shrink: 0;
-    opacity: 0.5;
+    position: relative;
+    margin-right: 2.9rem;
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: rgb(13 48 230 / 96%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/rectangle-15-bg-WbX.png);
+    border-radius: 5rem;
+    flex-shrink: 0;
+
+    /* Position the pseudo-element */
+    overflow: hidden;
+
 }
+
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-r1xy-puB .group-33-k29 .case-study-edK {
   margin-bottom: 7.2rem;
   font-size: 1.5rem;
@@ -277,7 +282,7 @@ body {
   line-height: 1.0948047638;
   letter-spacing: -0.03rem;
   text-transform: uppercase;
-  color: #bbbaba;
+  color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
 }
@@ -486,6 +491,17 @@ body {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
 }
+.case-study-NKf {
+    margin-bottom: 7.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-36-EjF .trial-development-VfB {
   margin-bottom: 1.1rem;
   font-size: 2.4rem;
@@ -495,6 +511,16 @@ body {
   color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
+}
+.trial-development-VfB {
+    margin-bottom: 1.1rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.0948047638;
+    letter-spacing: -0.048rem;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-36-EjF .lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-2QD {
   margin-bottom: 3.7rem;
@@ -506,6 +532,16 @@ body {
   color: #bbbaba;
   font-family: Roboto, 'Source Sans Pro';
 }
+.lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-2QD {
+    margin-bottom: 3.7rem;
+    max-width: 26rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-36-EjF .read-now-8CM {
   font-size: 1.6rem;
   font-weight: 700;
@@ -515,6 +551,16 @@ body {
   color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
+}
+.read-now-8CM {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.0948047638;
+    letter-spacing: 0.128rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-37-o3b {
   box-sizing: border-box;
@@ -540,6 +586,17 @@ body {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
 }
+.article-Wih {
+    margin-bottom: 1.1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-37-o3b .philip-cutting-pzH {
   margin-bottom: 4.4rem;
   font-size: 1.5rem;
@@ -549,6 +606,16 @@ body {
   color: #bbbaba;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
+}
+.philip-cutting-pzH {
+    margin-bottom: 4.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-37-o3b .design-what-to-see-YfP {
   margin-bottom: 1.1rem;
@@ -560,6 +627,16 @@ body {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
 }
+.design-what-to-see-YfP {
+    margin-bottom: 1.1rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.0948047638;
+    letter-spacing: -0.048rem;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-37-o3b .lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-gFo {
   margin-bottom: 3.7rem;
   max-width: 26rem;
@@ -570,6 +647,16 @@ body {
   color: #bbbaba;
   font-family: Roboto, 'Source Sans Pro';
 }
+.lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-gFo {
+    margin-bottom: 3.7rem;
+    max-width: 26rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-37-o3b .read-now-BTT {
   font-size: 1.6rem;
   font-weight: 700;
@@ -579,6 +666,16 @@ body {
   color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
+}
+.read-now-BTT {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.0948047638;
+    letter-spacing: 0.128rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-37-o3b .group-37-o3b-bg {
   width: 36rem;
@@ -610,6 +707,17 @@ body {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
 }
+.article-8n1 {
+    margin-bottom: 1.1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-38-Qb7 .philip-cutting-TpH {
   margin-bottom: 3rem;
   font-size: 1.5rem;
@@ -619,6 +727,16 @@ body {
   color: #bbbaba;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
+}
+.philip-cutting-TpH {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-38-Qb7 .figma-images-to-play-with-bfb {
   margin-bottom: 0.8rem;
@@ -630,6 +748,16 @@ body {
   color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
 }
+.figma-images-to-play-with-bfb {
+    margin-bottom: 0.8rem;
+    max-width: 22.9rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.0948047638;
+    letter-spacing: -0.048rem;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-38-Qb7 .lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-WnZ {
   margin-bottom: 2.8rem;
   max-width: 26rem;
@@ -640,6 +768,16 @@ body {
   color: #bbbaba;
   font-family: Roboto, 'Source Sans Pro';
 }
+.lorem-ipsum-dolor-sit-amet-consectetur-ultrices-morbi-diam-turpis-WnZ {
+    margin-bottom: 2.8rem;
+    max-width: 26rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.0948047638;
+    letter-spacing: -0.03rem;
+    color: #bbbaba;
+    font-family: Roboto, 'Source Sans Pro';
+}
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-38-Qb7 .read-now-Dws {
   font-size: 1.6rem;
   font-weight: 700;
@@ -649,6 +787,16 @@ body {
   color: #ffffff;
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
+}
+.read-now-Dws {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.0948047638;
+    letter-spacing: 0.128rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Roboto, 'Source Sans Pro';
+    white-space: nowrap;
 }
 .blogs-H7K .auto-group-jzvh-QSq .auto-group-lhz7-Xpq .group-38-Qb7 .group-38-Qb7-bg {
   width: 36rem;
@@ -890,4 +1038,112 @@ body {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+
+.card1 {
+    position: relative;
+    /*margin-right: 2.9rem;*/
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/rectangle-15-bg-vYV.png'); /* Replace with your actual image path */
+    border-radius: 5rem;
+    flex-shrink: 0;
+}
+.card2 {
+    position: relative;
+    /*margin-right: 2.9rem;*/
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/rectangle-15-bg-6gu.png'); /* Replace with your actual image path */
+    border-radius: 5rem;
+    flex-shrink: 0;
+}
+.card3 {
+    position: relative;
+    /*margin-right: 2.9rem;*/
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/rectangle-15-bg-gVs.png); /* Replace with your actual image path */
+    border-radius: 5rem;
+    flex-shrink: 0;
+}
+.card4 {
+    position: relative;
+    /*margin-right: 2.9rem;*/
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/rectangle-15-bg-vYV.png'); /* Replace with your actual image path */
+    border-radius: 5rem;
+    flex-shrink: 0;
+}
+.card5 {
+    position: relative;
+    /*margin-right: 2.9rem;*/
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/rectangle-15-bg-vYV.png'); /* Replace with your actual image path */
+    border-radius: 5rem;
+    flex-shrink: 0;
+}
+.card6 {
+    position: relative;
+    /*margin-right: 2.9rem;*/
+    box-sizing: border-box;
+    padding: 4.4rem 5.8rem 4.4rem 4.2rem;
+    width: 36rem;
+    height: 100%;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/rectangle-15-bg-vYV.png'); /* Replace with your actual image path */
+    border-radius: 5rem;
+    flex-shrink: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(20, 0, 71, 0.70) 0%, rgba(20, 0, 71, 0.70) 100%);/* Adjust the opacity and color as needed */
+    border-radius: 5rem;
+}
+
+.text {
+    position: relative;
+    z-index: 1;
+    color: #fff; /* White text */
 }

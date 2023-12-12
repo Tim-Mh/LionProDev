@@ -17,7 +17,7 @@
             <div class="auto-group-p4d3-KM7">
                 <div class="frame-10-3nu">
                     <a href="{{ route('home') }}" class="home-yAm">HOME</a>
-                    <a href="{{ route('projects') }}" class="projects-UtD">PROJECTS</a>
+                    <a href="{{ route('pro') }}" class="projects-UtD">PROJECTS</a>
                     <a href="{{ route('blogs') }}" class="blogs-ne1">BLOGS</a>
                     <a href="{{ route('about') }}" class="about-vER">ABOUT</a>
                 </div>
@@ -26,7 +26,7 @@
                     <img class="vector-9N5" src="./assets/vector-tjX.png"/>
                 </div>
             </div>
-            <div class="frame-GxV">start a project</div>
+            <a href="{{route('contact')}}" class="frame-GxV">start a project</a>
         </div>
         <p class="about-lion-pro-dev-kMs">About Lion Pro Dev</p>
         <p class="our-agencys-core-values-are-honesty-integrity-and-professionalism-we-strive-to-maintain-open-and-transparent-communication-with-our-clients-throughout-the-development-process-ensuring-that-their-input-is-valued-and-incorporated-into-the-final-product-we-take-pride-in-building-lasting-relationships-with-our-clients-and-working-together-to-achieve-their-online-goals-whether-youre-a-small-start-up-or-a-large-corporation-our-development-agency-has-the-skills-and-expertise-to-bring-your-vision-to-life-we-look-forward-to-working-with-you-and-helping-you-achieve-success-in-the-digital-world-qPK">
@@ -83,7 +83,7 @@
             </div>
             <div class="frame-22-fyF">
                 <a href="{{ route('about') }}" class="about-us-nny">About Us</a>
-                <a href="{{ route('blogs') }}" class="blog-jTK">Blog</a>
+                <a  class="blog-jTK">Blog</a>
                 <a href="{{ route('terms') }}" class="terms-conditions-5XB">Terms &amp; Conditions</a>
                 <a href="{{ route('privacy') }}" class="privacy-policy-DdP">Privacy Policy</a>
             </div>

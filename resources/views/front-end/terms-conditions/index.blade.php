@@ -17,16 +17,16 @@
             <div class="auto-group-peey-cyT">
                 <div class="frame-10-MRF">
                     <a href="{{ route('home') }}" class="home-5c9">HOME</a>
-                    <a href="{{ route('projects') }}" class="projects-QPX">PROJECTS</a>
-                    <a href="{{ route('blogs') }}" class="blogs-YEq">BLOGS</a>
-                    <a href="{{ route('about') }}" class="about-Tsb">ABOUT</a>
+                    <a href="{{ route('pro') }}" class="projects-QPX">PROJECTS</a>
+                    <a  class="blogs-YEq">BLOGS</a>
+                    <a class="about-Tsb">ABOUT</a>
                 </div>
                 <div class="group-5-oAm">
                     <img class="group-4-Ye9" src="./assets/group-4-NPF.png"/>
                     <img class="vector-gkM" src="./assets/vector-uzu.png"/>
                 </div>
             </div>
-            <div class="frame-opy">start a project</div>
+            <a href="{{route('contact')}}" class="frame-opy">start a project</a>
         </div>
         <p class="website-terms-of-use-VC1">Website Terms of Use</p>
         <div class="auto-group-xeop-aUM">
@@ -396,8 +396,8 @@
                 <img class="vector-X4R" src="./assets/vector-FK3.png"/>
             </div>
             <div class="frame-22-rMb">
-                <a href="{{ route('about') }}" class="about-us-YER">About Us</a>
-                <a href="{{ route('blogs') }}" class="blog-sGh">Blog</a>
+                <a  class="about-us-YER">About Us</a>
+                <a  class="blog-sGh">Blog</a>
                 <a href="{{ route('terms') }}" class="terms-conditions-DbT">Terms &amp; Conditions</a>
                 <a href="{{ route('privacy') }}" class="privacy-policy-m7B">Privacy Policy</a>
             </div>
